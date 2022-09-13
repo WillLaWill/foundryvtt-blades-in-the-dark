@@ -40,13 +40,6 @@ export class BladesClockSheet extends BladesSheet {
     let data = [];
     let update = {
       img: image_path,
-      width: 1,
-      height: 1,
-      scale: 1,
-      mirrorX: false,
-      mirrorY: false,
-      tint: "",
-      displayName: 50
     };
 
     let tokens = this.actor.getActiveTokens();
